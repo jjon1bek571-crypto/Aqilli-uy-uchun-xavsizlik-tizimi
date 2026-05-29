@@ -1,0 +1,37 @@
+{
+  "name": "early-alert",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "description": "EarlyAlert — intelligent fire & flood safety layer for homes and buildings.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^1.41.0",
+    "@supabase/supabase-js": "^2.47.10",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.469.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.1.1",
+    "recharts": "^2.15.0",
+    "tailwind-merge": "^2.6.0",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@vercel/node": "^3.2.29",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}
